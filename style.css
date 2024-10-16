@@ -1,0 +1,48 @@
+:root{
+    --rosa: #bd83aa;
+    --branco: #ede7f5;
+    --azul: #73968b;
+    --roxo: #b99dcf;
+}
+
+body{
+    background-color: var(--branco);
+    color: var(--roxo);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    margin: 0;
+}
+
+
+header{
+    background-color: var(--roxo);
+    text-align: center;
+    padding: 1px;
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--branco);
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--roxo);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform(0.1s);
+
+}
